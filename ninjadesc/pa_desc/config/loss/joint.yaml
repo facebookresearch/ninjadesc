@@ -1,0 +1,21 @@
+# @package _group_
+_lambda: 1.0
+disc_on: false
+
+util:
+  _target_: ninjadesc.pa_desc.core.losses.sos_loss
+  knn: 8
+  margin: 1.0
+
+mae:
+  _target_: torch.nn.L1Loss
+  reduction: "mean"
+
+perc:
+  _target_: ninjadesc.pa_desc.core.losses.PerceptualLoss
+  norm: 2.0
+  reduction: "mean"
+
+bce:
+  _target_: torch.nn.BCELoss
+  reduction: "none"

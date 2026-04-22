@@ -1,0 +1,48 @@
+# @package _group_
+
+# Seed for training
+seed: 0
+
+# Patch size for descriptor computation
+patch_size: 32
+
+# Base descriptor type, e.g. SIFT, Hardet, SOSNet (default: sosnet)
+base_desc: sosnet
+
+# Testing Options (if neither then tests uninitialised model)
+test:
+  # Path to checkpoint to test
+  checkpoint: ''
+  # Path to torchscript model to test
+  torchscript: ''
+
+defaults:
+  - _self_
+  # Train Data (dataloader, transforms, dataset)
+  # By setting ds to null we can override with any dataset at runtime, i.e.: `datasets@data.train.ds=liberty`
+  - dataloader@data.train.dl: default
+  - transforms@data.train.tfs: training
+  - datasets@data.train.ds: null
+  # Test Data (list of datasets, naming a/b/c ignored)
+  - dataloader@data.test.dl: default
+  - transforms@data.test.tfs: default
+  - datasets@data.test.ds.a: yosemite
+  - datasets@data.test.ds.b: notredame
+  - datasets@data.test.ds.c: liberty
+  # Training
+  - model: default
+  - loss: default
+  - trainer: default
+  - optimizer@optim.optimizer: adam_single
+  - optim.scheduler: null
+  - early_stopping: default
+  - results: default
+  # Other
+  - profiler: null
+  - callbacks: null
+  - logger: tensorboard
+  - checkpoint_callback: manifold
+  - system: null
+  # Hydra
+  - hydra/job_logging: colorlog
+  - hydra/hydra_logging: colorlog

@@ -1,0 +1,15 @@
+# @package _group_
+disc_on: false
+
+mae:
+  _target_: torch.nn.L1Loss
+  reduction: "mean"
+
+perc:
+  _target_: ninjadesc.pa_desc.core.losses.PerceptualLoss
+  norm: 2.0
+  reduction: "mean"
+
+bce:
+  _target_: torch.nn.BCELoss
+  reduction: "none"

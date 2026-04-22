@@ -1,0 +1,14 @@
+# @package _group_
+
+- key: fpr_95_avg
+  fn:
+    _target_: builtins.min
+- key: fpr_95_liberty
+  fn:
+    _target_: builtins.min
+- key: fpr_95_yosemite
+  fn:
+    _target_: builtins.min
+- key: fpr_95_notredame
+  fn:
+    _target_: builtins.min

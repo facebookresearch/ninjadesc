@@ -1,0 +1,8 @@
+# @package _group_
+
+- _target_: ninjadesc.pa_desc.data.transforms.Grayscale
+- _target_: ninjadesc.pa_desc.data.transforms.Resize
+  size: ${patch_size}
+- _target_: ninjadesc.pa_desc.data.transforms.ToFloat
+  normalise: False
+- _target_: ninjadesc.pa_desc.data.transforms.ToTensor

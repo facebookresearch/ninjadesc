@@ -1,0 +1,8 @@
+# @package _group_
+
+_target_: torch.utils.data.DataLoader
+batch_size: 512
+num_workers: 8
+pin_memory: True
+drop_last: False
+persistent_workers: False
