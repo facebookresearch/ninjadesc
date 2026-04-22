@@ -1,6 +1,6 @@
 # NinjaDesc: Content-Concealing Visual Descriptors via Adversarial Learning
 
-Reference implementation for the CVPR 2022 paper *"NinjaDesc: Content-Concealing Visual Descriptors via Adversarial Learning"* by Tony Ng, Hyo Jin Kim, Vincent T. Lee, Daniel DeTone, Tsun-Yi Yang, Tianwei Shen, Eddy Ilg, Vassileios Balntas, Krystian Mikolajczyk, and Chris Sweeney (Reality Labs, Meta and Imperial College London).
+Code and models for the CVPR 2022 paper *"NinjaDesc: Content-Concealing Visual Descriptors via Adversarial Learning"* by Tony Ng, Hyo Jin Kim, Vincent T. Lee, Daniel DeTone, Tsun-Yi Yang, Tianwei Shen, Eddy Ilg, Vassileios Balntas, Krystian Mikolajczyk, and Chris Sweeney (Reality Labs, Meta and Imperial College London).
 
 [Paper (arXiv 2112.12785)](https://arxiv.org/abs/2112.12785)
 
