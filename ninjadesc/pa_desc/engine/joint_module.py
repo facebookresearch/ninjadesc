@@ -26,9 +26,9 @@ from ninjadesc.pa_desc.models.utils import fix_state_dict_keys
 
 
 PA_DESC_MODEL = {
-    "sosnet": "pa_desc_sosnet_init",
-    "sift": "pa_desc_sift_init",
-    "hardnet": "pa_desc_hardnet_init",
+    "sosnet": "ninja_desc_sosnet_init",
+    "sift": "ninja_desc_sift_init",
+    "hardnet": "ninja_desc_hardnet_init",
 }
 
 RECON_MODEL = {

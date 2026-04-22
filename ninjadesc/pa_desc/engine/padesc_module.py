@@ -38,7 +38,7 @@ class PADescModule(pl.LightningModule):
             self.base_desc = torch.jit.load(download_weights("hardnet_lib"))
             self.base_desc.eval()
 
-        padesc_model = torch.jit.load(download_weights("pa_desc_sosnet_init"))
+        padesc_model = torch.jit.load(download_weights("ninja_desc_sosnet_init"))
         self.privacy = padesc_model.privacy
         self.base_desc_type = cfg.base_desc
 

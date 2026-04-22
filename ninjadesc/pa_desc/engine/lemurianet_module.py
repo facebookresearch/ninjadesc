@@ -27,9 +27,9 @@ RECON_MODEL = {
     "sift": "lemuria_unet_sift",
 }
 PA_DESC_MODEL = {
-    "sosnet": "pa_desc_sosnet_init",
-    "sift": "pa_desc_sift_init",
-    "hardnet": "pa_desc_hardnet_init",
+    "sosnet": "ninja_desc_sosnet_init",
+    "sift": "ninja_desc_sift_init",
+    "hardnet": "ninja_desc_hardnet_init",
 }
 
 

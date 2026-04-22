@@ -45,10 +45,10 @@ Weights are released as GitHub Release assets. They are downloaded automatically
 
 | Logical name                                       | File                                                       |
 | -------------------------------------------------- | ---------------------------------------------------------- |
-| `pa_desc_sosnet_init`                              | `pa_desc_sos_init_torchscript.pt`                          |
-| `pa_desc_sift_init`                                | `pa_desc_sift_init_torchscript.pt`                         |
-| `pa_desc_hardnet_init`                             | `pa_desc_hardnet_init_torchscript.pt`                      |
-| `pa_desc_hardnet_init_normalize`                   | `pa_desc_hardnet_init_normalize_torchscript.pt`            |
+| `ninja_desc_sosnet_init`                           | `ninja_desc_sos_init_torchscript.pt`                       |
+| `ninja_desc_sift_init`                             | `ninja_desc_sift_init_torchscript.pt`                      |
+| `ninja_desc_hardnet_init`                          | `ninja_desc_hardnet_init_torchscript.pt`                   |
+| `ninja_desc_hardnet_init_normalize`                | `ninja_desc_hardnet_init_normalize_torchscript.pt`         |
 | `lemuria_unet_padesc_sos_init`                     | `LemuriaNet_Unet_PADesc_INIT.pth`                          |
 | `lemuria_unet_padesc_sift_init`                    | `LemuriaNet_UNet_PADesc_SIFT_INIT.pth`                     |
 | `lemuria_unet_padesc_hardnet_init`                 | `LemuriaNet_UNet_PADesc_HARDNET_INIT.pth`                  |

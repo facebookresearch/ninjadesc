@@ -23,7 +23,7 @@ from ninjadesc.lemuria.recon.unet import UNet
 
 
 DISC_ON = 0
-PA_DESC_MODEL = "pa_desc_sosnet_init"
+PA_DESC_MODEL = "ninja_desc_sosnet_init"
 RECON_MODEL = "lemuria_unet_padesc_sos_init"
 
 
