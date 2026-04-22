@@ -1,0 +1,13 @@
+# @package _group_
+
+desc:
+  _target_: torch.optim.Adam
+  lr: 0.01
+
+gen:
+  _target_: torch.optim.Adam
+  lr: 0.001
+
+adv:
+  _target_: torch.optim.Adam
+  lr: 0.0001

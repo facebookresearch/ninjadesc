@@ -1,0 +1,7 @@
+# @package _group_
+
+_target_: ninjadesc.pa_desc.data.hpatches.HPatches
+split: a
+base_path: ${oc.env:NINJADESC_DATA_ROOT,./data}/HPatches/hpatches_32x32
+in_memory: False
+nb_patches_per_track: 2

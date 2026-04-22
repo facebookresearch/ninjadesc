@@ -1,0 +1,5 @@
+# @package _group_
+
+_target_: ninjadesc.pa_desc.core.losses.sos_loss
+knn: 8
+margin: 1.0

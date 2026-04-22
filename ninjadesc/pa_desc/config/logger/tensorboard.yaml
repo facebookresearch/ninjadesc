@@ -1,0 +1,7 @@
+# @package _group_
+
+_target_: pytorch_lightning.loggers.TensorBoardLogger
+save_dir: ${oc.env:NINJADESC_OUTPUT_ROOT,./outputs}
+name: pa_desc
+version: ${now:%Y-%m-%d}/${now:%H-%M-%S}
+log_graph: true

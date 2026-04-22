@@ -1,0 +1,19 @@
+# @package _group_
+
+
+desc:
+  is_bias: True
+  is_affine: True
+  dim_desc: 128
+  drop_rate: 0.1
+  eps_l2_norm: 1e-10
+  norm_layer:
+    _target_: torch.nn.InstanceNorm2d
+  activation:
+    _target_: torch.nn.ReLU
+  conv_weight_initialiser:
+    _target_: torch.nn.init.orthogonal_
+
+recon:
+  in_ch: 128
+  out_ch: 3

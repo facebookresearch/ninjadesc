@@ -1,0 +1,9 @@
+# @package _group_
+
+_target_: pytorch_lightning.callbacks.ModelCheckpoint
+dirpath: ${oc.env:NINJADESC_OUTPUT_ROOT,./outputs}/checkpoints
+filename: "{epoch}-{step}"
+save_top_k: 10
+verbose: False
+monitor: "fpr_95_avg"
+mode: 'min'

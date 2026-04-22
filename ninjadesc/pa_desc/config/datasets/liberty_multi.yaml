@@ -1,0 +1,6 @@
+# @package _group_
+
+_target_: ninjadesc.pa_desc.data.phototour.PhotoTour
+name: liberty
+data_root: ${oc.env:NINJADESC_DATA_ROOT,./data}/PhotoTour
+nb_patches_per_track: 4
